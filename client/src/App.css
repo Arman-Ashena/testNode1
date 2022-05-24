@@ -1,0 +1,18 @@
+#other {
+  justify-content: flex-end;
+
+  padding: 10px;
+}
+
+#other .message-content {
+  justify-content: flex-end;
+  background-color: cornflowerblue;
+}
+
+#other .message-meta {
+  justify-content: flex-end;
+  margin-right: 5px;
+}
+.message-content #author {
+  margin-left: 10px;
+}
