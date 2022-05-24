@@ -5,7 +5,7 @@ const cors = require("cors");
 const { Server } = require("socket.io");
 
 app.use(cors());
-app.get("/", (req, res) => res.send("Home Page Route"));
+
 //sfsdf
 const server = http.createServer(app);
 const io = new Server(server, {
