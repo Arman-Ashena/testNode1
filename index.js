@@ -13,7 +13,7 @@ const io = new Server(server, {
     methods: ["GET", "POST"],
   },
 });
-
+//fdfsdfs
 io.on("connection", (socket) => {
   console.log(`User Connected:${socket.id}`);
   //این قسمت از سمت فرانت ارسال میشود. data
