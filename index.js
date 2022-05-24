@@ -32,6 +32,5 @@ io.on("connection", (socket) => {
 });
 
 server.listen(3001, () => {
-  alert("server running");
   console.log("server running");
 });
